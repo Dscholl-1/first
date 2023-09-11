@@ -1,23 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Home from './pages/home';
-import { QueryClient, QueryClientProvider } from 'react-query';
 
 function App() {
-
-
-  const queryClient = new QueryClient();
   return (
-    <QueryClientProvider client={queryClient}>
-      <div className="App">
-        <BrowserRouter>
-          <Routes>
-            <Route path='/' element={<Home />} />
-          </Routes>
-        </BrowserRouter>
+    <div className="App">
+      <div className="white-nav">
+      <h4>입시 &nbsp;&nbsp;&nbsp;&nbsp;</h4>
+      <h4>학원 &nbsp;&nbsp;&nbsp;&nbsp;</h4>
+      <h4>학교 &nbsp;&nbsp;&nbsp;&nbsp;</h4>
+      <h4>수다 &nbsp;&nbsp;&nbsp;&nbsp;</h4>
+      <h4>리뷰 &nbsp;&nbsp;&nbsp;&nbsp;</h4>
+      <h4>소식 &nbsp;&nbsp;&nbsp;&nbsp;</h4>
+      <h4>토론 &nbsp;&nbsp;&nbsp;&nbsp;</h4>
+      <h4>| &nbsp;&nbsp;&nbsp;&nbsp;</h4>
+      <h4>#고등 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+      <h4>#중등 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+      <h4>#초등 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+      <h4>홍길동님 안녕하세요. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+      <h4>로그아웃 &nbsp;&nbsp;&nbsp;&nbsp;</h4>
+      <h4>| &nbsp;&nbsp;&nbsp;&nbsp;</h4>
+      <h4>마이페이지 &nbsp;&nbsp;&nbsp;&nbsp;</h4>
       </div>
-    </QueryClientProvider>
+      <h4></h4>
+    </div>
   );
 }
 
