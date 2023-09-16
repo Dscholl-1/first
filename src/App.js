@@ -13,15 +13,11 @@ function Image() {
 function Search(){
   const [searchTerm, setSearchTerm] = useState('');
   const [searchResults, setSearchResults] = useState([]);
-  // 검색어 입력 핸들러
   const handleSearch = (e) => {
     setSearchTerm(e.target.value);
   };
 
-  // 검색 버튼 클릭 핸들러 (검색 결과 업데이트)
   const handleSearchClick = () => {
-    // 여기에서 검색 결과를 가져오는 API 호출 또는 검색 로직을 추가할 수 있습니다.
-    // 이 예제에서는 단순히 검색어를 콘솔에 출력하는 것으로 대체합니다.
     console.log('검색어:', searchTerm);
   };
 
@@ -34,7 +30,7 @@ function Search(){
         onChange={handleSearch}
       />
       <button onClick={handleSearchClick}>검색</button>
-      {/* 여기에 검색 결과를 나타내는 UI를 추가할 수 있습니다. */}
+      {}
     </div>
   );
 }
