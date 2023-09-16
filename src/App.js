@@ -1,10 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
 
+function Image() {
+  return (
+    <div className="Image">
+      <img src='img/dschool_logo.png'></img>
+    </div>
+  );
+}
+
+
 function App() {
   return (
     <div className="App">
-      <h4>입시 &nbsp;&nbsp;&nbsp;&nbsp;</h4>
+      <Image />
+      <h4>\n \n \n \n 입시 &nbsp;&nbsp;&nbsp;&nbsp;</h4>
       <h4>학원 &nbsp;&nbsp;&nbsp;&nbsp;</h4>
       <h4>학교 &nbsp;&nbsp;&nbsp;&nbsp;</h4>
       <h4>수다 &nbsp;&nbsp;&nbsp;&nbsp;</h4>
