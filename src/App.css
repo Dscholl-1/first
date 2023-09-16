@@ -1,8 +1,5 @@
 .App {
   text-align: center;
-}
-
-.white-nav {
   display: flex;
   background: rgb(248, 248, 248);
   width: 100%;
