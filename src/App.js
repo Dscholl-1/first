@@ -4,7 +4,6 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <div className="white-nav">
       <h4>입시 &nbsp;&nbsp;&nbsp;&nbsp;</h4>
       <h4>학원 &nbsp;&nbsp;&nbsp;&nbsp;</h4>
       <h4>학교 &nbsp;&nbsp;&nbsp;&nbsp;</h4>
@@ -20,8 +19,6 @@ function App() {
       <h4>로그아웃 &nbsp;&nbsp;&nbsp;&nbsp;</h4>
       <h4>| &nbsp;&nbsp;&nbsp;&nbsp;</h4>
       <h4>마이페이지 &nbsp;&nbsp;&nbsp;&nbsp;</h4>
-      </div>
-      <h4></h4>
     </div>
   );
 }
