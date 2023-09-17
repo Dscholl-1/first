@@ -50,6 +50,7 @@ function App0() {
   return (
     <div className="App0">
       <Image />
+      <h4><br/></h4>
       <Search />
     </div>
   );
