@@ -5,15 +5,21 @@
   padding: 0px 0px;
 }
 
+.Image2 {
+  width: 10px;
+  height: 10px;
+  object-fit: cover;
+  padding: 0px 0px;
+}
+
 .Search {
     text-align: center;
-    width: 100px;
-    height: 20px;
+    width: 200px;
+    height: 50px;
     margin: auto auto;
     display: flex;
-    border-color: red;
-    border-width: thick;
-    padding: 50px 100px;
+    border: 10px solid red;
+    border-width: medium;
 }
 
 .App1 {

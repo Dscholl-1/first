@@ -10,6 +10,17 @@ function Image() {
   );
 }
 
+function Image2() {
+  return (
+    <div className="Image2">
+      <img
+      src='img/search.png'
+      style={{ width: '30px', height: '50px' }}
+      />
+    </div>
+  );
+}
+
 function Search(){
   const [searchTerm, setSearchTerm] = useState('');
   const [searchResults, setSearchResults] = useState([]);
@@ -29,8 +40,9 @@ function Search(){
         value={searchTerm}
         onChange={handleSearch}
       />
-      <button onClick={handleSearchClick}>검색</button>
-      {}
+      <span onClick={handleSearchClick}>
+        <Image2 />{}
+      </span>
     </div>
   );
 }
