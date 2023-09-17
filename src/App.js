@@ -15,7 +15,7 @@ function Image2() {
     <div className="Image2">
       <img
       src='img/search.png'
-      style={{ width: '30px', height: '50px' }}
+      style={{ width: '40px', height: '40px' }}
       />
     </div>
   );
@@ -33,14 +33,15 @@ function Search(){
   };
 
   return (
-    <div className="Search">
+    <div className="Search" style={{ width: '500px', height: '40px' }}>
       <input
         type="text"
         placeholder="검색어를 입력하세요"
         value={searchTerm}
         onChange={handleSearch}
+        style={{ width: '91%', height: '90%' }}
       />
-      <span onClick={handleSearchClick}>
+      <span onClick={handleSearchClick} style={{ width: '40px', height: '40px' }}>
         <Image2 />{}
       </span>
     </div>
